@@ -2,7 +2,6 @@
 layout: page
 permalink: /
 ---
-## Lìonra Sòisealta nan Gàidheal
 
 B'e AbairThusa a' chiad lìonra sòisealta Gàidhlig a bh' ann riamh. Chaidh a stèidheachadh ann an 2007 ach gu mì-fhortanach dhùin e ann an 2012. Tha leth‑bhreac dheth fhathast ri lorg san [tasg‑lann aig The Internet Archive](https://web.archive.org/web/20090205170058/http://abairthusa.ning.com/).
 

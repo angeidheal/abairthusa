@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: AbairThusa
+description: > # this means to ignore newlines until "baseurl:"
+  Lìonra Sòisealta nan Gàidheal
+
+#baseurl: "/antubhalghort" # the subpath of your site, e.g. /blog
+url: "https://abairthusa.scot" # the base hostname & protocol for your site
+
+#footer
+author-name: Crìstean MacMhìcheil
+author-website: "https://macmhicheil.scot"
+
+#social
+mastodon: https://www.mastodon.scot/@angeidheal
+twitter:
+instagram:
+facebook:
+github: https://github.com/angeidheal
+email: chris@macmhicheil.scot
+
+# Sass style
+# sass:
+#  style: compressed
+
+# Ruby Gems
+plugins:
+  - jekyll-paginate

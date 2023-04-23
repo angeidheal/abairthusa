@@ -3,7 +3,7 @@
 // Theme
 $text-color: #f0f0f0;
 $background-color: #0d1117;
-$brand-color: #008080;
+$brand-color: #00cdff;
 
 // Width of the content area
 $content-width: 800px;
@@ -21,38 +21,43 @@ $on-laptop: 800px;
 
 html,
 body {
-  font-family: "Open Sans";
+  font-family: "Outfit";
   background-color: $background-color;
   font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: "Lemonada";
   margin-top: 28px;
 }
 
 h1{
   font-size: 30px;
+  font-weight: 900;
 }
 
 h2{
-  font-size: 28px;
+  font-size: 27px;
+  font-weight: 700;
 }
 
 h3{
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 h4{
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 h5{
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 h6{
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 img {
@@ -60,11 +65,19 @@ img {
 }
 
 a {
-  color: $brand-color;
-  font-weight: bold;
+  color: $text-color;
 }
 
 a:hover {
+  color: $brand-color;
+}
+
+p a, li a {
+  color: $brand-color;
+  font-weight: 600;
+}
+
+p a:hover, li a:hover {
   color: $text-color;
   text-decoration: underline;
 }
@@ -72,7 +85,12 @@ a:hover {
 code {
   color: $text-color;
   border-left: 3px solid $brand-color;
-  padding-left: 10px;
+  padding-left: 8px;
+}
+
+blockquote {
+  border-left: 3px solid $brand-color;
+  padding-left: 8px;
 }
 
 /* Navbar */
@@ -93,7 +111,7 @@ code {
 }
 
 .navbar-dark .navbar-brand{
-  color: #ffffff;
+  color: $text-color;
 }
 
 .navbar-dark .navbar-brand:hover{
@@ -101,7 +119,7 @@ code {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: #ffffff;
+  color: $text-color;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -111,7 +129,7 @@ code {
 /* Blog Index */
 
 .latest-posts{
- font-family: Lemonada;
+ font-family: Outfit;
  margin-top: 28px;
 }
 
@@ -123,12 +141,6 @@ code {
 
 article.post {
   margin-bottom: 28px;
-}
-
-.post-title {
-  font-family: "Lemonada";
-  font-size: 28px;
-  padding-top: 50px;
 }
 
 /* Post Media */
@@ -152,7 +164,7 @@ article.post {
   max-width: 200px;
   height: auto;
   border-radius: 50%;
-  border: 8px solid whitesmoke;
+  border: 8px solid $text-color;
 }
 
 .youtube-wrapper {
